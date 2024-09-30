@@ -1,0 +1,2937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zakarias Data kort</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-1200-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-1200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Location history from 2024-09-15 to 2024-09-15</name>
+      <Placemark>
+        <name>Ravnsbjerg Kollegiet</name>
+        <description><![CDATA[beskrivelse: Logi from 2024-09-12T19:43:59.000Z to 2024-09-15T01:10:59.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Logi<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Logi from 2024-09-12T19:43:59.000Z to 2024-09-15T01:10:59.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Logi</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            10.150426,56.119403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-15T01:10:59.000Z to 2024-09-15T01:21:29.000Z. Distance 1975m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1975]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-15T01:10:59.000Z to 2024-09-15T01:21:29.000Z. Distance 1975m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1975</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.150426,56.119403,0
+            10.156652,56.112688,0
+            10.15088,56.116338,0
+            10.145018,56.120565,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Selmersvej 26</name>
+        <description><![CDATA[beskrivelse: from 2024-09-15T01:21:29.000Z to 2024-09-15T01:30:14.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: <br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>from 2024-09-15T01:21:29.000Z to 2024-09-15T01:30:14.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value/>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            10.145018,56.120565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On a bus</name>
+        <description><![CDATA[beskrivelse: On a bus from 2024-09-15T01:30:14.000Z to 2024-09-15T01:41:44.000Z. Distance 5557m<br>Email: dkZakarias@gmail.com<br>Category: On a bus<br>Distance: 5557]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On a bus from 2024-09-15T01:30:14.000Z to 2024-09-15T01:41:44.000Z. Distance 5557m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a bus</value>
+          </Data>
+          <Data name="Distance">
+            <value>5557</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.145018,56.120565,0
+            10.15088,56.116338,0
+            10.17079,56.131957,0
+            10.180937,56.139574,0
+            10.188037,56.144624,0
+            10.194599,56.146718,0
+            10.196783,56.148316,0
+            10.199305,56.150437,0
+            10.199628,56.151232,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-15T01:41:44.000Z to 2024-09-15T01:47:45.000Z. Distance 530m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 530]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-15T01:41:44.000Z to 2024-09-15T01:47:45.000Z. Distance 530m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>530</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.199628,56.151232,0
+            10.203906,56.15106,0
+            10.202278,56.150843,0
+            10.204689,56.150298,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Aarhus</name>
+        <description><![CDATA[beskrivelse: Station from 2024-09-15T01:47:45.000Z to 2024-09-15T04:14:49.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Station<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Station from 2024-09-15T01:47:45.000Z to 2024-09-15T04:14:49.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            10.204689,56.150298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On a train</name>
+        <description><![CDATA[beskrivelse: On a train from 2024-09-15T04:14:49.000Z to 2024-09-15T06:59:48.000Z. Distance 310380m<br>Email: dkZakarias@gmail.com<br>Category: On a train<br>Distance: 310380]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On a train from 2024-09-15T04:14:49.000Z to 2024-09-15T06:59:48.000Z. Distance 310380m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a train</value>
+          </Data>
+          <Data name="Distance">
+            <value>310380</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.204689,56.150298,0
+            10.204536,56.149834,0
+            10.159491,56.122673,0
+            10.103755,56.107197,0
+            10.041033,56.078538,0
+            9.976147,56.066586,0
+            9.933644,56.044696,0
+            9.92594,56.043209,0
+            9.908042,56.039028,0
+            9.950781,55.968715,0
+            9.951958,55.93416,0
+            9.903266,55.896642,0
+            9.831177,55.8856,0
+            9.837495,55.8591,0
+            9.833817,55.860099,0
+            9.771151,55.864425,0
+            9.767499,55.855939,0
+            9.705074,55.808616,0
+            9.699431,55.778192,0
+            9.698075,55.762165,0
+            9.662142,55.734161,0
+            9.562329,55.701373,0
+            9.537196,55.706332,0
+            9.537113,55.705126,0
+            9.572312,55.697086,0
+            9.645524,55.643325,0
+            9.652966,55.610173,0
+            9.716606,55.591108,0
+            9.727916,55.576904,0
+            9.741357,55.569879,0
+            9.742344,55.5712,0
+            9.74027,55.569567,0
+            9.739918,55.56895,0
+            9.735989,55.564711,0
+            9.704076,55.510587,0
+            9.759281,55.493578,0
+            9.808209,55.471807,0
+            9.890323,55.45466,0
+            10.299457,55.372375,0
+            10.335986,55.379754,0
+            10.385035,55.401657,0
+            10.384709,55.401468,0
+            10.38192,55.402056,0
+            10.385057,55.40167,0
+            10.385065,55.401389,0
+            10.385056,55.401714,0
+            10.390041,55.401528,0
+            10.392703,55.40137,0
+            10.446908,55.391926,0
+            10.543592,55.37271,0
+            10.60903,55.36105,0
+            10.674258,55.353213,0
+            10.723705,55.340415,0
+            10.732052,55.338528,0
+            10.978195,55.333728,0
+            10.978896,55.337864,0
+            11.107656,55.349562,0
+            11.076033,55.34686,0
+            11.185818,55.367222,0
+            11.26882,55.368274,0
+            11.3561,55.412328,0
+            11.432874,55.410005,0
+            11.529468,55.44117,0
+            11.600738,55.428042,0
+            11.636526,55.425305,0
+            11.69203,55.447324,0
+            11.780898,55.438699,0
+            11.810404,55.43898,0
+            11.9022,55.454907,0
+            11.995854,55.465321,0
+            12.057983,55.467572,0
+            12.128338,55.477402,0
+            12.19032,55.518281,0
+            12.236799,55.5646,0
+            12.255106,55.57929,0
+            12.26537,55.585642,0
+            12.429833,55.631906,0
+            12.483116,55.652503,0
+            12.511187,55.655245,0
+            12.51247,55.654944,0
+            12.541095,55.658496,0
+            12.560695,55.664936,0
+            12.564812,55.672768,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>København H</name>
+        <description><![CDATA[beskrivelse: Station from 2024-09-15T06:59:48.000Z to 2024-09-15T07:08:21.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Station<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Station from 2024-09-15T06:59:48.000Z to 2024-09-15T07:08:21.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.564812,55.672768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On a train</name>
+        <description><![CDATA[beskrivelse: On a train from 2024-09-15T07:08:21.000Z to 2024-09-15T07:21:42.000Z. Distance 10133m<br>Email: dkZakarias@gmail.com<br>Category: On a train<br>Distance: 10133]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On a train from 2024-09-15T07:08:21.000Z to 2024-09-15T07:21:42.000Z. Distance 10133m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a train</value>
+          </Data>
+          <Data name="Distance">
+            <value>10133</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            12.564812,55.672768,0
+            12.565982,55.672031,0
+            12.562699,55.670713,0
+            12.562056,55.669369,0
+            12.541095,55.658496,0
+            12.617842,55.630069,0
+            12.645156,55.630037,0
+            12.650772,55.629666,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-15T07:21:42.000Z to 2024-09-15T07:31:26.000Z. Distance 364m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 364]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-15T07:21:42.000Z to 2024-09-15T07:31:26.000Z. Distance 364m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>364</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            12.650772,55.629666,0
+            12.650772,55.629667,0
+            12.650773,55.629669,0
+            12.649495,55.629314,0
+            12.649356,55.629088,0
+            12.647414,55.628945,0
+            12.645447,55.628737,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Københavns Lufthavn</name>
+        <description><![CDATA[beskrivelse: International lufthavn from 2024-09-15T07:31:26.000Z to 2024-09-15T08:50:23.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: International lufthavn<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>International lufthavn from 2024-09-15T07:31:26.000Z to 2024-09-15T08:50:23.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>International lufthavn</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.63552,55.609577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flying</name>
+        <description><![CDATA[beskrivelse: Flying from 2024-09-15T08:50:23.000Z to 2024-09-15T12:30:14.000Z. Distance 2059718m<br>Email: dkZakarias@gmail.com<br>Category: Flying<br>Distance: 2059718]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Flying from 2024-09-15T08:50:23.000Z to 2024-09-15T12:30:14.000Z. Distance 2059718m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Flying</value>
+          </Data>
+          <Data name="Distance">
+            <value>2059718</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            12.645447,55.628737,0
+            12.641277,55.627522,0
+            12.646204,55.626754,0
+            12.644025,55.627687,0
+            -3.564276,40.489515,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Madrid-Barajas Lufthavn</name>
+        <description><![CDATA[beskrivelse: International lufthavn from 2024-09-15T12:30:14.000Z to 2024-09-15T13:55:47.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: International lufthavn<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>International lufthavn from 2024-09-15T12:30:14.000Z to 2024-09-15T13:55:47.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>International lufthavn</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.564276,40.489515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <description><![CDATA[beskrivelse: On the subway from 2024-09-15T13:55:47.000Z to 2024-09-15T14:24:46.000Z. Distance 18236m<br>Email: dkZakarias@gmail.com<br>Category: On the subway<br>Distance: 18236]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On the subway from 2024-09-15T13:55:47.000Z to 2024-09-15T14:24:46.000Z. Distance 18236m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>18236</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.564276,40.489515,0
+            -3.593074,40.492026,0
+            -3.609908,40.489094,0
+            -3.585224,40.481282,0
+            -3.582693,40.476912,0
+            -3.582762,40.475899,0
+            -3.576682,40.472013,0
+            -3.599147,40.468457,0
+            -3.637139,40.469813,0
+            -3.641256,40.467777,0
+            -3.67928,40.457042,0
+            -3.692442,40.444985,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Nuevos Ministerios</name>
+        <description><![CDATA[beskrivelse: Station from 2024-09-15T14:24:46.000Z to 2024-09-15T14:35:05.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Station<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Station from 2024-09-15T14:24:46.000Z to 2024-09-15T14:35:05.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.692341,40.446617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <description><![CDATA[beskrivelse: On the subway from 2024-09-15T14:35:05.000Z to 2024-09-15T14:38:22.000Z. Distance 3149m<br>Email: dkZakarias@gmail.com<br>Category: On the subway<br>Distance: 3149]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On the subway from 2024-09-15T14:35:05.000Z to 2024-09-15T14:38:22.000Z. Distance 3149m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>3149</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.692442,40.444985,0
+            -3.692751,40.444859,0
+            -3.702291,40.417759,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-15T14:38:22.000Z to 2024-09-15T14:55:38.000Z. Distance 532m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 532]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-15T14:38:22.000Z to 2024-09-15T14:55:38.000Z. Distance 532m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>532</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.702291,40.417759,0
+            -3.702379,40.417562,0
+            -3.702641,40.416924,0
+            -3.703077,40.416876,0
+            -3.703608,40.417157,0
+            -3.7032,40.415753,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-15T14:55:38.000Z to 2024-09-16T07:03:08.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-15T14:55:38.000Z to 2024-09-16T07:03:08.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Location history from 2024-09-16 to 2024-09-16</name>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-15T14:55:38.000Z to 2024-09-16T07:03:08.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-15T14:55:38.000Z to 2024-09-16T07:03:08.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T07:03:08.000Z to 2024-09-16T07:13:10.000Z. Distance 344m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 344]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T07:03:08.000Z to 2024-09-16T07:13:10.000Z. Distance 344m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>344</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.702706,40.416991,0
+            -3.702862,40.416885,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <description><![CDATA[beskrivelse: On the subway from 2024-09-16T07:13:10.000Z to 2024-09-16T07:22:17.000Z. Distance 3230m<br>Email: dkZakarias@gmail.com<br>Category: On the subway<br>Distance: 3230]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On the subway from 2024-09-16T07:13:10.000Z to 2024-09-16T07:22:17.000Z. Distance 3230m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>3230</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.702862,40.416885,0
+            -3.692603,40.44487,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T07:22:17.000Z to 2024-09-16T07:44:08.000Z. Distance 838m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 838]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T07:22:17.000Z to 2024-09-16T07:44:08.000Z. Distance 838m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>838</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.692603,40.44487,0
+            -3.692048,40.445195,0
+            -3.692853,40.44578,0
+            -3.692979,40.44687,0
+            -3.69196,40.448374,0
+            -3.692105,40.45029,0
+            -3.6939,40.450791,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>IBM Innovation Studio Madrid</name>
+        <description><![CDATA[beskrivelse: Kontorhotel from 2024-09-16T07:44:08.000Z to 2024-09-16T10:25:20.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Kontorhotel<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Kontorhotel from 2024-09-16T07:44:08.000Z to 2024-09-16T10:25:20.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Kontorhotel</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.6939,40.450791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T10:25:20.000Z to 2024-09-16T10:57:12.000Z. Distance 1624m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1624]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T10:25:20.000Z to 2024-09-16T10:57:12.000Z. Distance 1624m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1624</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.6939,40.450791,0
+            -3.69421,40.450895,0
+            -3.692958,40.447587,0
+            -3.693,40.447616,0
+            -3.692919,40.447565,0
+            -3.692907,40.447602,0
+            -3.692886,40.447571,0
+            -3.691994,40.447424,0
+            -3.69263,40.446649,0
+            -3.692632,40.446646,0
+            -3.69263,40.446644,0
+            -3.692626,40.446635,0
+            -3.692635,40.446645,0
+            -3.692637,40.446648,0
+            -3.692841,40.446583,0
+            -3.693187,40.446551,0
+            -3.695064,40.446083,0
+            -3.697156,40.446749,0
+            -3.700335,40.446831,0
+            -3.704167,40.4475,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[McDonald's]]></name>
+        <description><![CDATA[beskrivelse: Fastfood from 2024-09-16T10:57:12.000Z to 2024-09-16T11:46:49.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Fastfood<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Fastfood from 2024-09-16T10:57:12.000Z to 2024-09-16T11:46:49.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Fastfood</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.704167,40.4475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <description><![CDATA[beskrivelse: On the subway from 2024-09-16T11:46:49.000Z to 2024-09-16T12:05:46.000Z. Distance 4474m<br>Email: dkZakarias@gmail.com<br>Category: On the subway<br>Distance: 4474]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On the subway from 2024-09-16T11:46:49.000Z to 2024-09-16T12:05:46.000Z. Distance 4474m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>4474</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.704167,40.4475,0
+            -3.703934,40.446405,0
+            -3.707392,40.424769,0
+            -3.709462,40.418225,0
+            -3.703777,40.417094,0
+            -3.695999,40.418668,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T12:05:46.000Z to 2024-09-16T12:18:52.000Z. Distance 641m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 641]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T12:05:46.000Z to 2024-09-16T12:18:52.000Z. Distance 641m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>641</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.695999,40.418668,0
+            -3.695911,40.418685,0
+            -3.693158,40.418664,0
+            -3.692886,40.418716,0
+            -3.692835,40.418506,0
+            -3.693343,40.416688,0
+            -3.694983,40.416254,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Thyssen-Bornemisza National Museum</name>
+        <description><![CDATA[beskrivelse: Kunstmuseum from 2024-09-16T12:18:52.000Z to 2024-09-16T13:53:16.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Kunstmuseum<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Kunstmuseum from 2024-09-16T12:18:52.000Z to 2024-09-16T13:53:16.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Kunstmuseum</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.694925,40.416041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T13:53:16.000Z to 2024-09-16T14:31:00.000Z. Distance 1337m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1337]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T13:53:16.000Z to 2024-09-16T14:31:00.000Z. Distance 1337m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1337</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.694983,40.416254,0
+            -3.694648,40.416411,0
+            -3.694216,40.418074,0
+            -3.694063,40.418321,0
+            -3.695771,40.41909,0
+            -3.695912,40.419146,0
+            -3.697259,40.419188,0
+            -3.699457,40.417923,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-16T14:31:00.000Z to 2024-09-16T15:21:34.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-16T14:31:00.000Z to 2024-09-16T15:21:34.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T15:21:34.000Z to 2024-09-16T15:27:06.000Z. Distance 127m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 127]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T15:21:34.000Z to 2024-09-16T15:27:06.000Z. Distance 127m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>127</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.703946,40.413031,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yatai Market</name>
+        <description><![CDATA[beskrivelse: Asiatisk mad from 2024-09-16T15:27:06.000Z to 2024-09-16T18:03:21.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Asiatisk mad<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Asiatisk mad from 2024-09-16T15:27:06.000Z to 2024-09-16T18:03:21.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Asiatisk mad</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703946,40.413031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T18:03:21.000Z to 2024-09-16T18:42:00.000Z. Distance 297m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 297]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T18:03:21.000Z to 2024-09-16T18:42:00.000Z. Distance 297m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>297</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703946,40.413031,0
+            -3.70419,40.413094,0
+            -3.703879,40.414169,0
+            -3.703868,40.414165,0
+            -3.703915,40.41417,0
+            -3.703919,40.414171,0
+            -3.703811,40.412841,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Embajadores</name>
+        <description><![CDATA[beskrivelse: from 2024-09-16T18:42:00.000Z to 2024-09-16T19:28:29.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: <br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>from 2024-09-16T18:42:00.000Z to 2024-09-16T19:28:29.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value/>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.707739,40.408129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-16T19:28:29.000Z to 2024-09-16T19:39:40.000Z. Distance 154m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 154]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-16T19:28:29.000Z to 2024-09-16T19:39:40.000Z. Distance 154m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>154</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703811,40.412841,0
+            -3.70388,40.412842,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-16T19:39:40.000Z to 2024-09-17T07:30:47.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-16T19:39:40.000Z to 2024-09-17T07:30:47.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Location history from 2024-09-17 to 2024-09-17</name>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-16T19:39:40.000Z to 2024-09-17T07:30:47.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-16T19:39:40.000Z to 2024-09-17T07:30:47.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-17T07:30:47.000Z to 2024-09-17T13:05:23.000Z. Distance 9998m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 9998]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-17T07:30:47.000Z to 2024-09-17T13:05:23.000Z. Distance 9998m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>9998</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.699976,40.412827,0
+            -3.699655,40.41262,0
+            -3.699319,40.412424,0
+            -3.696135,40.412498,0
+            -3.693664,40.412592,0
+            -3.692912,40.412997,0
+            -3.692868,40.413596,0
+            -3.693962,40.413523,0
+            -3.692335,40.413729,0
+            -3.692453,40.414164,0
+            -3.691562,40.412954,0
+            -3.692445,40.414651,0
+            -3.692448,40.414651,0
+            -3.692463,40.415401,0
+            -3.691989,40.414705,0
+            -3.692066,40.414712,0
+            -3.691971,40.414698,0
+            -3.691996,40.414716,0
+            -3.691992,40.4147,0
+            -3.691965,40.414684,0
+            -3.691977,40.414691,0
+            -3.69196,40.414841,0
+            -3.691986,40.414702,0
+            -3.69124,40.414001,0
+            -3.691499,40.41381,0
+            -3.691659,40.414015,0
+            -3.691677,40.413955,0
+            -3.692065,40.413823,0
+            -3.692084,40.413818,0
+            -3.69204,40.413812,0
+            -3.69179,40.413684,0
+            -3.691679,40.413636,0
+            -3.691612,40.41351,0
+            -3.691946,40.413405,0
+            -3.692206,40.41353,0
+            -3.692297,40.414174,0
+            -3.692233,40.414204,0
+            -3.691979,40.414262,0
+            -3.691902,40.414363,0
+            -3.691964,40.41425,0
+            -3.69191,40.414138,0
+            -3.691956,40.414074,0
+            -3.691908,40.41414,0
+            -3.692213,40.414045,0
+            -3.69222,40.414131,0
+            -3.69226,40.413781,0
+            -3.692096,40.412954,0
+            -3.69231,40.413072,0
+            -3.692269,40.413005,0
+            -3.691707,40.413918,0
+            -3.692555,40.415134,0
+            -3.6941,40.41441,0
+            -3.692955,40.414434,0
+            -3.693042,40.414308,0
+            -3.693045,40.414311,0
+            -3.693103,40.41428,0
+            -3.693097,40.414291,0
+            -3.693097,40.414295,0
+            -3.693098,40.414296,0
+            -3.693068,40.41431,0
+            -3.693066,40.414319,0
+            -3.69307,40.414321,0
+            -3.693064,40.41432,0
+            -3.693053,40.414319,0
+            -3.692904,40.414027,0
+            -3.693008,40.414448,0
+            -3.693067,40.41479,0
+            -3.693179,40.415114,0
+            -3.6928,40.415202,0
+            -3.692381,40.41517,0
+            -3.691896,40.415177,0
+            -3.691896,40.415274,0
+            -3.691687,40.415243,0
+            -3.691491,40.415373,0
+            -3.690975,40.415324,0
+            -3.69053,40.415334,0
+            -3.690151,40.415447,0
+            -3.689776,40.41549,0
+            -3.68934,40.415454,0
+            -3.689101,40.415325,0
+            -3.689119,40.415207,0
+            -3.688664,40.415251,0
+            -3.688482,40.415306,0
+            -3.688364,40.415378,0
+            -3.687986,40.415504,0
+            -3.687865,40.415509,0
+            -3.687899,40.415537,0
+            -3.687738,40.415519,0
+            -3.687764,40.415633,0
+            -3.68799,40.415728,0
+            -3.687979,40.415725,0
+            -3.687991,40.415764,0
+            -3.687804,40.415759,0
+            -3.687616,40.41551,0
+            -3.687241,40.415412,0
+            -3.686949,40.415364,0
+            -3.686923,40.415466,0
+            -3.686723,40.415379,0
+            -3.686341,40.41537,0
+            -3.68642,40.415502,0
+            -3.686345,40.415549,0
+            -3.686286,40.415385,0
+            -3.686271,40.415384,0
+            -3.686277,40.415376,0
+            -3.685931,40.415327,0
+            -3.685562,40.415478,0
+            -3.685628,40.41584,0
+            -3.68574,40.415897,0
+            -3.685764,40.415908,0
+            -3.685756,40.415889,0
+            -3.685369,40.415944,0
+            -3.684966,40.416,0
+            -3.684549,40.416028,0
+            -3.684354,40.416055,0
+            -3.684385,40.41619,0
+            -3.684401,40.416182,0
+            -3.684324,40.415869,0
+            -3.684253,40.41554,0
+            -3.684139,40.415442,0
+            -3.68402,40.415295,0
+            -3.683899,40.415339,0
+            -3.683922,40.415328,0
+            -3.683945,40.415353,0
+            -3.68392,40.415362,0
+            -3.683888,40.41531,0
+            -3.683806,40.415552,0
+            -3.683816,40.41564,0
+            -3.683805,40.41578,0
+            -3.683512,40.4158,0
+            -3.683276,40.41593,0
+            -3.682927,40.416045,0
+            -3.6826,40.416143,0
+            -3.682558,40.416281,0
+            -3.682594,40.416576,0
+            -3.682556,40.416883,0
+            -3.682549,40.416898,0
+            -3.682751,40.41716,0
+            -3.683031,40.417102,0
+            -3.683042,40.417157,0
+            -3.683175,40.417233,0
+            -3.683006,40.417189,0
+            -3.682804,40.417387,0
+            -3.682836,40.417497,0
+            -3.683149,40.417474,0
+            -3.683134,40.417564,0
+            -3.683277,40.417625,0
+            -3.68327,40.417636,0
+            -3.683264,40.417642,0
+            -3.683256,40.417643,0
+            -3.683254,40.417538,0
+            -3.683333,40.417458,0
+            -3.683314,40.417453,0
+            -3.683308,40.417453,0
+            -3.683228,40.417637,0
+            -3.683025,40.417888,0
+            -3.683197,40.418193,0
+            -3.683294,40.418472,0
+            -3.683357,40.418601,0
+            -3.683662,40.418748,0
+            -3.683971,40.418859,0
+            -3.684312,40.418828,0
+            -3.684643,40.418701,0
+            -3.685055,40.418699,0
+            -3.685296,40.418698,0
+            -3.685182,40.418698,0
+            -3.685422,40.418822,0
+            -3.685557,40.419098,0
+            -3.685762,40.419324,0
+            -3.686156,40.419534,0
+            -3.686394,40.419628,0
+            -3.686248,40.419608,0
+            -3.686497,40.419726,0
+            -3.686643,40.419827,0
+            -3.68694,40.419855,0
+            -3.68738,40.419781,0
+            -3.687791,40.419775,0
+            -3.687455,40.419547,0
+            -3.687481,40.419544,0
+            -3.687483,40.419552,0
+            -3.68747,40.419592,0
+            -3.687871,40.419816,0
+            -3.687921,40.420025,0
+            -3.68798,40.420006,0
+            -3.688076,40.420183,0
+            -3.688077,40.420194,0
+            -3.688119,40.420196,0
+            -3.688131,40.42018,0
+            -3.688064,40.420185,0
+            -3.687951,40.420209,0
+            -3.687966,40.420195,0
+            -3.688118,40.420366,0
+            -3.6884,40.420546,0
+            -3.688784,40.420641,0
+            -3.689218,40.420477,0
+            -3.68944,40.420247,0
+            -3.689726,40.420019,0
+            -3.690132,40.41996,0
+            -3.690548,40.419903,0
+            -3.69101,40.419837,0
+            -3.691371,40.419787,0
+            -3.691797,40.419721,0
+            -3.692187,40.419694,0
+            -3.692356,40.419867,0
+            -3.692772,40.419994,0
+            -3.693192,40.419926,0
+            -3.693268,40.419922,0
+            -3.693619,40.419717,0
+            -3.693866,40.419515,0
+            -3.694285,40.419415,0
+            -3.694725,40.419366,0
+            -3.695055,40.419256,0
+            -3.695491,40.419192,0
+            -3.695904,40.419139,0
+            -3.696387,40.419061,0
+            -3.696727,40.419026,0
+            -3.696826,40.419048,0
+            -3.696805,40.419039,0
+            -3.696862,40.419029,0
+            -3.696879,40.419017,0
+            -3.696939,40.41886,0
+            -3.696817,40.419049,0
+            -3.696838,40.418979,0
+            -3.696854,40.419059,0
+            -3.69684,40.419055,0
+            -3.696843,40.419036,0
+            -3.697152,40.419166,0
+            -3.697552,40.419188,0
+            -3.697986,40.419274,0
+            -3.698184,40.419337,0
+            -3.698478,40.419401,0
+            -3.698981,40.419565,0
+            -3.699325,40.419725,0
+            -3.699708,40.41981,0
+            -3.70009,40.41992,0
+            -3.700532,40.420004,0
+            -3.700938,40.420054,0
+            -3.701412,40.420103,0
+            -3.70182,40.420139,0
+            -3.702235,40.420163,0
+            -3.702691,40.420187,0
+            -3.703089,40.420242,0
+            -3.703268,40.420375,0
+            -3.70325,40.420395,0
+            -3.703259,40.42043,0
+            -3.703268,40.420457,0
+            -3.703096,40.420403,0
+            -3.703584,40.420281,0
+            -3.704079,40.420307,0
+            -3.704529,40.420324,0
+            -3.704972,40.420365,0
+            -3.70542,40.420399,0
+            -3.705817,40.420385,0
+            -3.706212,40.420585,0
+            -3.70623,40.420657,0
+            -3.706304,40.420695,0
+            -3.706327,40.420723,0
+            -3.706235,40.420691,0
+            -3.706275,40.420687,0
+            -3.706454,40.42061,0
+            -3.706275,40.420676,0
+            -3.706462,40.420667,0
+            -3.706292,40.420691,0
+            -3.706298,40.420694,0
+            -3.706184,40.420716,0
+            -3.70621,40.420829,0
+            -3.706964,40.421083,0
+            -3.707069,40.421127,0
+            -3.707054,40.4211,0
+            -3.707168,40.421161,0
+            -3.707497,40.421334,0
+            -3.70774,40.421554,0
+            -3.707846,40.421615,0
+            -3.707848,40.421618,0
+            -3.708118,40.421804,0
+            -3.708494,40.422034,0
+            -3.708788,40.42222,0
+            -3.708951,40.422244,0
+            -3.709178,40.4225,0
+            -3.709458,40.422663,0
+            -3.709679,40.422741,0
+            -3.709961,40.422968,0
+            -3.710325,40.423168,0
+            -3.710607,40.423363,0
+            -3.71062,40.423582,0
+            -3.710963,40.423655,0
+            -3.711212,40.423626,0
+            -3.711588,40.423605,0
+            -3.711766,40.423346,0
+            -3.712087,40.423236,0
+            -3.712365,40.423171,0
+            -3.71277,40.423181,0
+            -3.713,40.423053,0
+            -3.712984,40.423041,0
+            -3.713066,40.422988,0
+            -3.713269,40.422959,0
+            -3.71326,40.422952,0
+            -3.713249,40.422951,0
+            -3.713249,40.422956,0
+            -3.713241,40.422957,0
+            -3.71324,40.422956,0
+            -3.713237,40.422955,0
+            -3.713235,40.422953,0
+            -3.713234,40.422953,0
+            -3.713476,40.422886,0
+            -3.713708,40.422927,0
+            -3.714178,40.42298,0
+            -3.714489,40.422855,0
+            -3.714683,40.422825,0
+            -3.714792,40.422828,0
+            -3.715069,40.422856,0
+            -3.715236,40.42297,0
+            -3.715359,40.423043,0
+            -3.715435,40.423125,0
+            -3.715763,40.423304,0
+            -3.716061,40.423455,0
+            -3.716156,40.423619,0
+            -3.716433,40.423686,0
+            -3.716553,40.423929,0
+            -3.716973,40.423942,0
+            -3.717317,40.423928,0
+            -3.717716,40.423928,0
+            -3.717996,40.423804,0
+            -3.71819,40.423564,0
+            -3.718447,40.423489,0
+            -3.718451,40.423451,0
+            -3.718434,40.423442,0
+            -3.718534,40.423534,0
+            -3.718546,40.423553,0
+            -3.718553,40.423552,0
+            -3.718361,40.423814,0
+            -3.717985,40.423908,0
+            -3.717987,40.424044,0
+            -3.717824,40.424232,0
+            -3.717663,40.42427,0
+            -3.717649,40.42429,0
+            -3.71764,40.424288,0
+            -3.717289,40.424347,0
+            -3.717027,40.424432,0
+            -3.716729,40.424315,0
+            -3.716605,40.424032,0
+            -3.71653,40.423746,0
+            -3.716379,40.423509,0
+            -3.716166,40.423475,0
+            -3.716157,40.423422,0
+            -3.715805,40.423311,0
+            -3.715442,40.42315,0
+            -3.715764,40.42299,0
+            -3.716087,40.42275,0
+            -3.71615,40.422448,0
+            -3.716192,40.422398,0
+            -3.716174,40.422208,0
+            -3.716323,40.422018,0
+            -3.716687,40.421902,0
+            -3.717074,40.42191,0
+            -3.717337,40.42208,0
+            -3.717429,40.421784,0
+            -3.717652,40.421491,0
+            -3.71802,40.421253,0
+            -3.71798,40.42103,0
+            -3.718036,40.420728,0
+            -3.718076,40.420495,0
+            -3.718078,40.420459,0
+            -3.718231,40.420488,0
+            -3.718609,40.420511,0
+            -3.719075,40.420432,0
+            -3.719518,40.420484,0
+            -3.719843,40.420532,0
+            -3.720514,40.421012,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial Príncipe Pío</name>
+        <description><![CDATA[beskrivelse: Indkøbscenter from 2024-09-17T13:05:23.000Z to 2024-09-17T13:53:50.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Indkøbscenter<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Indkøbscenter from 2024-09-17T13:05:23.000Z to 2024-09-17T13:53:50.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Indkøbscenter</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.720913,40.42179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-17T13:53:50.000Z to 2024-09-17T15:35:28.000Z. Distance 3745m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 3745]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-17T13:53:50.000Z to 2024-09-17T15:35:28.000Z. Distance 3745m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>3745</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.720514,40.421012,0
+            -3.719971,40.420512,0
+            -3.719898,40.420158,0
+            -3.719903,40.420159,0
+            -3.719904,40.420156,0
+            -3.719585,40.42011,0
+            -3.719196,40.42016,0
+            -3.718769,40.420176,0
+            -3.718319,40.420176,0
+            -3.717905,40.42019,0
+            -3.717439,40.420221,0
+            -3.716979,40.420232,0
+            -3.716526,40.420266,0
+            -3.716057,40.420235,0
+            -3.715805,40.420243,0
+            -3.715813,40.420208,0
+            -3.715399,40.42024,0
+            -3.715092,40.420451,0
+            -3.71479,40.420672,0
+            -3.714532,40.420916,0
+            -3.714248,40.421099,0
+            -3.713986,40.42136,0
+            -3.713772,40.421534,0
+            -3.713597,40.421536,0
+            -3.713418,40.421612,0
+            -3.713288,40.421711,0
+            -3.713102,40.421605,0
+            -3.713001,40.421368,0
+            -3.713028,40.421038,0
+            -3.713083,40.420722,0
+            -3.713095,40.420387,0
+            -3.713098,40.420102,0
+            -3.713149,40.419789,0
+            -3.713169,40.419477,0
+            -3.7132,40.419372,0
+            -3.713177,40.419171,0
+            -3.713039,40.418943,0
+            -3.712972,40.418703,0
+            -3.712894,40.418478,0
+            -3.71285,40.418412,0
+            -3.712844,40.418417,0
+            -3.712933,40.418292,0
+            -3.713147,40.418079,0
+            -3.713236,40.417893,0
+            -3.713217,40.41787,0
+            -3.713304,40.417793,0
+            -3.713289,40.417531,0
+            -3.713386,40.417266,0
+            -3.713398,40.417253,0
+            -3.713435,40.417164,0
+            -3.713407,40.417043,0
+            -3.713404,40.416893,0
+            -3.713422,40.41655,0
+            -3.713636,40.416522,0
+            -3.713981,40.416612,0
+            -3.714274,40.416592,0
+            -3.714435,40.416638,0
+            -3.714464,40.416639,0
+            -3.714455,40.416604,0
+            -3.714545,40.416584,0
+            -3.714817,40.416577,0
+            -3.71524,40.416544,0
+            -3.715312,40.416654,0
+            -3.715352,40.416638,0
+            -3.715365,40.416587,0
+            -3.71549,40.416413,0
+            -3.715491,40.416426,0
+            -3.715353,40.416383,0
+            -3.715132,40.416245,0
+            -3.71477,40.416208,0
+            -3.714506,40.416188,0
+            -3.714402,40.416199,0
+            -3.713997,40.416156,0
+            -3.713692,40.416072,0
+            -3.713578,40.415819,0
+            -3.713627,40.415649,0
+            -3.714035,40.415704,0
+            -3.714101,40.415697,0
+            -3.71425,40.415627,0
+            -3.714409,40.415612,0
+            -3.714471,40.415568,0
+            -3.714444,40.415573,0
+            -3.714403,40.415548,0
+            -3.714396,40.415538,0
+            -3.714394,40.415525,0
+            -3.714397,40.415568,0
+            -3.714388,40.415548,0
+            -3.714398,40.415561,0
+            -3.714454,40.41559,0
+            -3.714384,40.415564,0
+            -3.714394,40.415607,0
+            -3.714454,40.415639,0
+            -3.714393,40.415483,0
+            -3.714369,40.415514,0
+            -3.71441,40.415528,0
+            -3.714402,40.415501,0
+            -3.714484,40.415643,0
+            -3.714522,40.415699,0
+            -3.714502,40.41572,0
+            -3.714519,40.415726,0
+            -3.714525,40.415723,0
+            -3.714554,40.415724,0
+            -3.714527,40.415689,0
+            -3.714413,40.41579,0
+            -3.714399,40.415744,0
+            -3.714392,40.415722,0
+            -3.714478,40.415667,0
+            -3.71444,40.415691,0
+            -3.714476,40.415685,0
+            -3.714513,40.415655,0
+            -3.714403,40.415768,0
+            -3.714384,40.415735,0
+            -3.714433,40.415646,0
+            -3.71464,40.415643,0
+            -3.714609,40.415617,0
+            -3.71448,40.41565,0
+            -3.714493,40.415652,0
+            -3.714464,40.415645,0
+            -3.714485,40.415638,0
+            -3.714443,40.415642,0
+            -3.714476,40.415642,0
+            -3.714458,40.415653,0
+            -3.714464,40.415659,0
+            -3.714448,40.415657,0
+            -3.71448,40.415641,0
+            -3.714479,40.415643,0
+            -3.714494,40.415654,0
+            -3.714428,40.415641,0
+            -3.714414,40.415633,0
+            -3.714443,40.41566,0
+            -3.714478,40.415634,0
+            -3.714455,40.415647,0
+            -3.714498,40.415661,0
+            -3.714558,40.415731,0
+            -3.714528,40.415724,0
+            -3.714507,40.415732,0
+            -3.714524,40.415814,0
+            -3.714569,40.415881,0
+            -3.714349,40.415756,0
+            -3.714387,40.415772,0
+            -3.714473,40.415671,0
+            -3.714373,40.41556,0
+            -3.714361,40.415565,0
+            -3.714447,40.415549,0
+            -3.713802,40.415474,0
+            -3.713635,40.415256,0
+            -3.713635,40.415144,0
+            -3.713997,40.415155,0
+            -3.714335,40.415176,0
+            -3.714532,40.415308,0
+            -3.714534,40.41534,0
+            -3.714492,40.41538,0
+            -3.714555,40.415637,0
+            -3.714526,40.415646,0
+            -3.714612,40.415629,0
+            -3.714808,40.415721,0
+            -3.714666,40.415694,0
+            -3.714568,40.415525,0
+            -3.714574,40.415488,0
+            -3.714596,40.415514,0
+            -3.714613,40.415511,0
+            -3.714574,40.41554,0
+            -3.714548,40.415554,0
+            -3.714571,40.415612,0
+            -3.714587,40.415649,0
+            -3.714587,40.415647,0
+            -3.71457,40.415645,0
+            -3.714521,40.41569,0
+            -3.71452,40.41569,0
+            -3.714542,40.415688,0
+            -3.714602,40.41566,0
+            -3.714608,40.415668,0
+            -3.714598,40.415658,0
+            -3.714625,40.415655,0
+            -3.714599,40.415678,0
+            -3.71462,40.415691,0
+            -3.714617,40.415689,0
+            -3.714569,40.415599,0
+            -3.714351,40.415171,0
+            -3.713922,40.415143,0
+            -3.713667,40.415084,0
+            -3.713671,40.415119,0
+            -3.7137,40.414977,0
+            -3.713569,40.414952,0
+            -3.713202,40.41499,0
+            -3.712842,40.415032,0
+            -3.712404,40.415116,0
+            -3.712002,40.415215,0
+            -3.711672,40.415412,0
+            -3.711247,40.415475,0
+            -3.710826,40.415473,0
+            -3.71055,40.415496,0
+            -3.710489,40.415489,0
+            -3.710149,40.415571,0
+            -3.709841,40.415821,0
+            -3.709478,40.415821,0
+            -3.709061,40.415946,0
+            -3.708638,40.415811,0
+            -3.708644,40.41578,0
+            -3.708674,40.415814,0
+            -3.708719,40.416009,0
+            -3.708683,40.415986,0
+            -3.708801,40.415964,0
+            -3.708719,40.416026,0
+            -3.708697,40.415904,0
+            -3.708654,40.41589,0
+            -3.708232,40.416072,0
+            -3.708306,40.416095,0
+            -3.70829,40.416083,0
+            -3.708283,40.416094,0
+            -3.707945,40.416102,0
+            -3.707928,40.416161,0
+            -3.707683,40.416129,0
+            -3.70768,40.415814,0
+            -3.707615,40.415567,0
+            -3.707529,40.415598,0
+            -3.707257,40.415321,0
+            -3.707104,40.415341,0
+            -3.706688,40.415165,0
+            -3.706345,40.415065,0
+            -3.706097,40.414935,0
+            -3.705716,40.414859,0
+            -3.705304,40.414744,0
+            -3.704827,40.414609,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-17T15:35:28.000Z to 2024-09-17T20:45:06.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-17T15:35:28.000Z to 2024-09-17T20:45:06.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-17T20:45:06.000Z to 2024-09-17T20:47:02.000Z. Distance 127m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 127]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-17T20:45:06.000Z to 2024-09-17T20:47:02.000Z. Distance 127m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>127</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.703946,40.413031,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yatai Market</name>
+        <description><![CDATA[beskrivelse: Asiatisk mad from 2024-09-17T20:47:02.000Z to 2024-09-17T22:45:46.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Asiatisk mad<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Asiatisk mad from 2024-09-17T20:47:02.000Z to 2024-09-17T22:45:46.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Asiatisk mad</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703946,40.413031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Location history from 2024-09-18 to 2024-09-18</name>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-17T22:45:46.000Z to 2024-09-18T08:32:53.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-17T22:45:46.000Z to 2024-09-18T08:32:53.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T08:32:53.000Z to 2024-09-18T08:46:41.000Z. Distance 1102m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1102]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T08:32:53.000Z to 2024-09-18T08:46:41.000Z. Distance 1102m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1102</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.703728,40.41439,0
+            -3.703621,40.414142,0
+            -3.703331,40.414065,0
+            -3.702872,40.413889,0
+            -3.702295,40.413677,0
+            -3.701821,40.413512,0
+            -3.701431,40.41338,0
+            -3.701042,40.413221,0
+            -3.700641,40.413153,0
+            -3.699463,40.411853,0
+            -3.698159,40.410764,0
+            -3.696906,40.409934,0
+            -3.694513,40.408044,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Dronning Sofias Museum</name>
+        <description><![CDATA[beskrivelse: Kunstmuseum from 2024-09-18T08:46:41.000Z to 2024-09-18T10:54:51.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Kunstmuseum<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Kunstmuseum from 2024-09-18T08:46:41.000Z to 2024-09-18T10:54:51.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Kunstmuseum</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.694557,40.407912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T10:54:51.000Z to 2024-09-18T11:13:17.000Z. Distance 1349m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1349]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T10:54:51.000Z to 2024-09-18T11:13:17.000Z. Distance 1349m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1349</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.694513,40.408044,0
+            -3.694127,40.407357,0
+            -3.693278,40.408436,0
+            -3.694739,40.408943,0
+            -3.696265,40.40971,0
+            -3.697652,40.410356,0
+            -3.698684,40.411333,0
+            -3.699448,40.412416,0
+            -3.700254,40.412944,0
+            -3.701667,40.413511,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-18T11:13:17.000Z to 2024-09-18T11:33:14.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-18T11:13:17.000Z to 2024-09-18T11:33:14.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T11:33:14.000Z to 2024-09-18T11:35:23.000Z. Distance 137m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 137]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T11:33:14.000Z to 2024-09-18T11:35:23.000Z. Distance 137m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>137</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.703651,40.414085,0
+            -3.703946,40.413031,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yatai Market</name>
+        <description><![CDATA[beskrivelse: Asiatisk mad from 2024-09-18T11:35:23.000Z to 2024-09-18T11:48:18.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Asiatisk mad<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Asiatisk mad from 2024-09-18T11:35:23.000Z to 2024-09-18T11:48:18.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Asiatisk mad</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703946,40.413031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T11:48:18.000Z to 2024-09-18T12:13:00.000Z. Distance 1492m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1492]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T11:48:18.000Z to 2024-09-18T12:13:00.000Z. Distance 1492m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1492</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703946,40.413031,0
+            -3.703875,40.41294,0
+            -3.703404,40.41413,0
+            -3.695259,40.415282,0
+            -3.690848,40.415352,0
+            -3.687687,40.415234,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Buen Retiro-parken</name>
+        <description><![CDATA[beskrivelse: Park from 2024-09-18T12:13:00.000Z to 2024-09-18T12:57:43.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Park<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Park from 2024-09-18T12:13:00.000Z to 2024-09-18T12:57:43.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Park</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.683466,40.415258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T12:57:43.000Z to 2024-09-18T13:09:27.000Z. Distance 835m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 835]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T12:57:43.000Z to 2024-09-18T13:09:27.000Z. Distance 835m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>835</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.687687,40.415234,0
+            -3.688783,40.415196,0
+            -3.689095,40.412184,0
+            -3.692632,40.409713,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[McDonald's]]></name>
+        <description><![CDATA[beskrivelse: Fastfood from 2024-09-18T13:09:27.000Z to 2024-09-18T13:58:27.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Fastfood<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Fastfood from 2024-09-18T13:09:27.000Z to 2024-09-18T13:58:27.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Fastfood</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.692632,40.409713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <description><![CDATA[beskrivelse: On the subway from 2024-09-18T13:58:27.000Z to 2024-09-18T14:05:29.000Z. Distance 1169m<br>Email: dkZakarias@gmail.com<br>Category: On the subway<br>Distance: 1169]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On the subway from 2024-09-18T13:58:27.000Z to 2024-09-18T14:05:29.000Z. Distance 1169m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>1169</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.692632,40.409713,0
+            -3.703791,40.414761,0
+            -3.703929,40.414134,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T14:05:29.000Z to 2024-09-18T15:07:45.000Z. Distance 1102m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1102]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T14:05:29.000Z to 2024-09-18T15:07:45.000Z. Distance 1102m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1102</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703929,40.414134,0
+            -3.703864,40.414166,0
+            -3.703921,40.4142,0
+            -3.704537,40.412784,0
+            -3.70435,40.412771,0
+            -3.704606,40.412634,0
+            -3.704856,40.412715,0
+            -3.704817,40.412786,0
+            -3.704805,40.412727,0
+            -3.704852,40.412812,0
+            -3.705292,40.412373,0
+            -3.704349,40.413779,0
+            -3.704338,40.413758,0
+            -3.704283,40.413744,0
+            -3.704554,40.413815,0
+            -3.70505,40.412748,0
+            -3.706429,40.413029,0
+            -3.706464,40.413821,0
+            -3.704866,40.413932,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-18T15:07:45.000Z to 2024-09-18T19:04:43.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-18T15:07:45.000Z to 2024-09-18T19:04:43.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T19:04:43.000Z to 2024-09-18T19:13:21.000Z. Distance 127m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 127]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T19:04:43.000Z to 2024-09-18T19:13:21.000Z. Distance 127m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>127</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.703946,40.413031,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yatai Market</name>
+        <description><![CDATA[beskrivelse: Asiatisk mad from 2024-09-18T19:13:21.000Z to 2024-09-18T20:21:53.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Asiatisk mad<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Asiatisk mad from 2024-09-18T19:13:21.000Z to 2024-09-18T20:21:53.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Asiatisk mad</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703946,40.413031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-18T20:21:53.000Z to 2024-09-18T20:34:43.000Z. Distance 127m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 127]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-18T20:21:53.000Z to 2024-09-18T20:34:43.000Z. Distance 127m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>127</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703946,40.413031,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-18T20:34:43.000Z to 2024-09-19T08:15:20.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-18T20:34:43.000Z to 2024-09-19T08:15:20.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Location history from 2024-09-19 to 2024-09-19</name>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-18T20:34:43.000Z to 2024-09-19T08:15:20.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-18T20:34:43.000Z to 2024-09-19T08:15:20.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-19T08:15:20.000Z to 2024-09-19T08:30:53.000Z. Distance 699m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 699]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-19T08:15:20.000Z to 2024-09-19T08:30:53.000Z. Distance 699m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>699</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.701953,40.420308,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fundación Telefónica</name>
+        <description><![CDATA[beskrivelse: Stiftelse from 2024-09-19T08:30:53.000Z to 2024-09-19T09:13:12.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Stiftelse<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Stiftelse from 2024-09-19T08:30:53.000Z to 2024-09-19T09:13:12.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Stiftelse</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.701961,40.420216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-19T09:13:12.000Z to 2024-09-19T09:19:36.000Z. Distance 716m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 716]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-19T09:13:12.000Z to 2024-09-19T09:19:36.000Z. Distance 716m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>716</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.701953,40.420308,0
+            -3.702006,40.419354,0
+            -3.702606,40.418059,0
+            -3.703621,40.416891,0
+            -3.703813,40.414177,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mola! Hostel</name>
+        <description><![CDATA[beskrivelse: Vandrerhjem from 2024-09-19T09:19:36.000Z to 2024-09-19T09:41:36.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Vandrerhjem<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Vandrerhjem from 2024-09-19T09:19:36.000Z to 2024-09-19T09:41:36.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Vandrerhjem</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.703813,40.414177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-19T09:41:36.000Z to 2024-09-19T10:39:56.000Z. Distance 1653m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 1653]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-19T09:41:36.000Z to 2024-09-19T10:39:56.000Z. Distance 1653m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>1653</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.703813,40.414177,0
+            -3.703628,40.413963,0
+            -3.703926,40.412474,0
+            -3.704603,40.41273,0
+            -3.704858,40.412754,0
+            -3.704842,40.41272,0
+            -3.704918,40.412819,0
+            -3.704869,40.41278,0
+            -3.703772,40.414087,0
+            -3.703753,40.41408,0
+            -3.703775,40.413333,0
+            -3.703717,40.413686,0
+            -3.703625,40.414026,0
+            -3.703761,40.414204,0
+            -3.703856,40.414717,0
+            -3.704317,40.415028,0
+            -3.704283,40.415929,0
+            -3.704343,40.416661,0
+            -3.70489,40.416411,0
+            -3.703772,40.414092,0
+            -3.703787,40.414097,0
+            -3.703861,40.414154,0
+            -3.703812,40.414044,0
+            -3.703222,40.415547,0
+            -3.702756,40.417054,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sol</name>
+        <description><![CDATA[beskrivelse: from 2024-09-19T10:39:56.000Z to 2024-09-19T10:55:00.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: <br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>from 2024-09-19T10:39:56.000Z to 2024-09-19T10:55:00.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value/>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.70321,40.41688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On the subway</name>
+        <description><![CDATA[beskrivelse: On the subway from 2024-09-19T10:55:00.000Z to 2024-09-19T11:02:50.000Z. Distance 3280m<br>Email: dkZakarias@gmail.com<br>Category: On the subway<br>Distance: 3280]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On the subway from 2024-09-19T10:55:00.000Z to 2024-09-19T11:02:50.000Z. Distance 3280m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On the subway</value>
+          </Data>
+          <Data name="Distance">
+            <value>3280</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.702756,40.417054,0
+            -3.70242,40.417485,0
+            -3.702398,40.417547,0
+            -3.691664,40.445306,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Nuevos Ministerios</name>
+        <description><![CDATA[beskrivelse: Station from 2024-09-19T11:02:50.000Z to 2024-09-19T11:13:06.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Station<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Station from 2024-09-19T11:02:50.000Z to 2024-09-19T11:13:06.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.692341,40.446617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On a train</name>
+        <description><![CDATA[beskrivelse: On a train from 2024-09-19T11:13:06.000Z to 2024-09-19T11:34:12.000Z. Distance 13972m<br>Email: dkZakarias@gmail.com<br>Category: On a train<br>Distance: 13972]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On a train from 2024-09-19T11:13:06.000Z to 2024-09-19T11:34:12.000Z. Distance 13972m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a train</value>
+          </Data>
+          <Data name="Distance">
+            <value>13972</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -3.691664,40.445306,0
+            -3.69153,40.445742,0
+            -3.571739,40.4681,0
+            -3.583071,40.47611,0
+            -3.564276,40.489515,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Madrid-Barajas Lufthavn</name>
+        <description><![CDATA[beskrivelse: International lufthavn from 2024-09-19T11:34:12.000Z to 2024-09-19T17:34:30.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: International lufthavn<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>International lufthavn from 2024-09-19T11:34:12.000Z to 2024-09-19T17:34:30.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>International lufthavn</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -3.564276,40.489515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Københavns Lufthavn</name>
+        <description><![CDATA[beskrivelse: International lufthavn from 2024-09-19T17:34:30.000Z to 2024-09-19T20:16:52.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: International lufthavn<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>International lufthavn from 2024-09-19T17:34:30.000Z to 2024-09-19T20:16:52.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>International lufthavn</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.63552,55.609577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>On a train</name>
+        <description><![CDATA[beskrivelse: On a train from 2024-09-19T20:16:52.000Z to 2024-09-20T00:23:41.000Z. Distance 335584m<br>Email: dkZakarias@gmail.com<br>Category: On a train<br>Distance: 335584]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>On a train from 2024-09-19T20:16:52.000Z to 2024-09-20T00:23:41.000Z. Distance 335584m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>On a train</value>
+          </Data>
+          <Data name="Distance">
+            <value>335584</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            12.64951,55.62942,0
+            12.649795,55.629513,0
+            12.649794,55.629512,0
+            12.551623,55.637662,0
+            12.540274,55.657876,0
+            12.540755,55.658884,0
+            12.558786,55.66583,0
+            12.561914,55.667973,0
+            12.562038,55.670429,0
+            12.561896,55.669033,0
+            12.532027,55.662608,0
+            12.510505,55.664835,0
+            12.418986,55.664386,0
+            12.272269,55.650799,0
+            12.269273,55.651103,0
+            12.216127,55.646964,0
+            12.135414,55.646272,0
+            12.088802,55.637903,0
+            12.075641,55.635343,0
+            12.057784,55.6248,0
+            12.041729,55.595426,0
+            12.034968,55.570415,0
+            12.026323,55.552632,0
+            11.976722,55.494976,0
+            11.915286,55.456428,0
+            11.853992,55.448758,0
+            11.782917,55.437449,0
+            11.689115,55.446552,0
+            11.612478,55.446564,0
+            11.566943,55.416546,0
+            11.502765,55.409339,0
+            11.403767,55.41135,0
+            11.346908,55.407319,0
+            11.347115,55.407336,0
+            11.34704,55.407326,0
+            11.326236,55.407065,0
+            11.290049,55.392923,0
+            11.253148,55.372186,0
+            11.140254,55.36057,0
+            11.140098,55.357783,0
+            11.107667,55.352012,0
+            10.84209,55.301927,0
+            10.804362,55.317193,0
+            10.795648,55.319369,0
+            10.726865,55.33283,0
+            10.640815,55.354764,0
+            10.58507,55.364196,0
+            10.569695,55.364839,0
+            10.499592,55.382476,0
+            10.409501,55.40179,0
+            10.382938,55.403368,0
+            10.382715,55.401714,0
+            10.276657,55.362775,0
+            10.186435,55.340689,0
+            10.130282,55.370552,0
+            10.04163,55.383516,0
+            9.97196,55.397649,0
+            9.929379,55.428051,0
+            9.858991,55.429593,0
+            9.809267,55.478714,0
+            9.745735,55.498862,0
+            9.735072,55.501115,0
+            9.730953,55.502144,0
+            9.71179,55.504376,0
+            9.724527,55.52819,0
+            9.69155,55.536419,0
+            9.733478,55.560711,0
+            9.737577,55.569132,0
+            9.72726,55.584656,0
+            9.644788,55.60697,0
+            9.651234,55.642934,0
+            9.592438,55.697256,0
+            9.54148,55.701955,0
+            9.538936,55.70741,0
+            9.57159,55.699245,0
+            9.632108,55.71936,0
+            9.69697,55.746823,0
+            9.700365,55.787588,0
+            9.74515,55.818759,0
+            9.774634,55.868361,0
+            9.832978,55.861922,0
+            9.841297,55.867925,0
+            9.824376,55.8728,0
+            9.843381,55.896562,0
+            9.92768,55.912935,0
+            9.967637,55.948704,0
+            9.979938,56.018758,0
+            9.889818,56.028536,0
+            9.926822,56.044193,0
+            9.93401,56.044314,0
+            9.986189,56.06612,0
+            10.064313,56.093886,0
+            10.105785,56.115133,0
+            10.17016,56.131656,0
+            10.197862,56.148743,0
+            10.202776,56.150802,0
+            10.204689,56.150298,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Aarhus</name>
+        <description><![CDATA[beskrivelse: Station from 2024-09-20T00:23:41.000Z to 2024-09-20T00:48:30.000Z. Distance 0m<br>Email: dkZakarias@gmail.com<br>Category: Station<br>Distance: 0]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Station from 2024-09-20T00:23:41.000Z to 2024-09-20T00:48:30.000Z. Distance 0m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Station</value>
+          </Data>
+          <Data name="Distance">
+            <value>0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            10.204689,56.150298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking</name>
+        <description><![CDATA[beskrivelse: Walking from 2024-09-20T00:48:30.000Z to 2024-09-20T01:59:45.000Z. Distance 5870m<br>Email: dkZakarias@gmail.com<br>Category: Walking<br>Distance: 5870]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <ExtendedData>
+          <Data name="beskrivelse">
+            <value>Walking from 2024-09-20T00:48:30.000Z to 2024-09-20T01:59:45.000Z. Distance 5870m</value>
+          </Data>
+          <Data name="Email">
+            <value>dkZakarias@gmail.com</value>
+          </Data>
+          <Data name="Category">
+            <value>Walking</value>
+          </Data>
+          <Data name="Distance">
+            <value>5870</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            10.204689,56.150298,0
+            10.199331,56.150704,0
+            10.198528,56.149897,0
+            10.197124,56.148626,0
+            10.195934,56.14773,0
+            10.194272,56.146482,0
+            10.192545,56.145701,0
+            10.19106,56.144806,0
+            10.188845,56.144092,0
+            10.18775,56.143204,0
+            10.185416,56.141435,0
+            10.183868,56.140704,0
+            10.179584,56.138225,0
+            10.177831,56.137861,0
+            10.177365,56.137142,0
+            10.174858,56.135527,0
+            10.172157,56.134858,0
+            10.170421,56.134047,0
+            10.161362,56.128831,0
+            10.162023,56.12817,0
+            10.160543,56.12729,0
+            10.160184,56.126286,0
+            10.159187,56.124879,0
+            10.158163,56.123441,0
+            10.156946,56.121965,0
+            10.155603,56.120672,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

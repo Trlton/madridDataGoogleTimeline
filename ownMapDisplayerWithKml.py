@@ -1,4 +1,4 @@
-import pykml
+import pykml as parser
 import folium
 
 dataFile = 'chosenFile'

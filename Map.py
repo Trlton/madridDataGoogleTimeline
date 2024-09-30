@@ -1,86 +1,57 @@
-import xml.etree.ElementTree as ET
-import pandas as pd
-import datetime
-import geopy.distance
-import plotly.express as px
+from pykml import parser
+import folium
+import os
 
+# File paths for each day
+kml_files = [
+    'DataFiles/1Søndag.kml',
+    'DataFiles/2Mandag.kml',
+    'DataFiles/3Tirsdag.kml',
+    'DataFiles/4Onsdag.kml',
+    'DataFiles/5Torsdag.kml'
+]
 
-def parse_kml_file(file_path):
-    try:
-        tree = ET.parse(file_path)
-        root = tree.getroot()
+# Dictionary to hold coordinates for each day
+day_coordinates = {}
 
-        placemarks = root.findall('.//{http://www.opengis.net/kml/2.2}Placemark')
-        data = []
+# Parse each KML file and extract coordinates
+for i, kml_file in enumerate(kml_files):
+    if os.path.isfile(kml_file):
+        with open(kml_file, 'r') as f:
+            root = parser.parse(f).getroot()
+
+        placemarks = root.Document.findall('.//{http://www.opengis.net/kml/2.2}Placemark')
+        coordinates = []
         for placemark in placemarks:
-            try:
-                timestamp_element = placemark.find(
-                    './/{http://www.opengis.net/kml/2.2}TimeStamp/{http://www.opengis.net/kml/2.2}when')
-                timestamp = datetime.datetime.strptime(timestamp_element.text, '%Y-%m-%dT%H:%M:%SZ')
-                coordinates_element = placemark.find(
-                    './/{http://www.opengis.net/kml/2.2}Point/{http://www.opengis.net/kml/2.2}coordinates')
-                coordinates = coordinates_element.text.split(',')[:2]
-                data.append((timestamp, coordinates[0], coordinates[1]))
-            except (AttributeError, ValueError) as e:
-                print(f"Error parsing Placemark: {e}")
-
-        return data
-    except ET.ParseError as e:
-        print(f"Error parsing KML file: {e}")
-        return []
-
-
-def process_data(data):
-    # Clean data: remove invalid timestamps and coordinates
-    cleaned_data = []
-    for row in data:
-        try:
-            datetime.datetime.strptime(row[0], '%Y-%m-%dT%H:%M:%SZ')
-            float(row[1])
-            float(row[2])
-            cleaned_data.append(row)
-        except (ValueError, TypeError):
-            print("Invalid data:", row)
-
-    # Calculate durations, distances, and total distance
-    durations = []
-    distances = []
-    total_distance = 0
-    for i in range(1, len(cleaned_data)):
-        duration = cleaned_data[i][0] - cleaned_data[i - 1][0]
-        durations.append(duration.total_seconds())
-        coord1 = (cleaned_data[i - 1][1], cleaned_data[i - 1][2])
-        coord2 = (cleaned_data[i][1], cleaned_data[i][2])
-        distance = geopy.distance.distance(coord1, coord2).kilometers
-        distances.append(distance)
-        total_distance += distance
-
-    # Calculate average speed
-    total_time = sum(durations)
-    if total_time > 0:
-        average_speed = total_distance / (total_time / 3600)
+            coord_text = placemark.find('.//{http://www.opengis.net/kml/2.2}coordinates').text.strip()
+            coords = [tuple(map(float, c.split(',')))[:2] for c in coord_text.split()]  # Split longitude, latitude
+            coordinates.extend(coords)
+        # Store the coordinates for this day
+        day_coordinates[f"Day {i + 1}"] = coordinates
     else:
-        average_speed = 0  # Or raise an exception if appropriate
+        print(f"KML file not found: {kml_file}")
 
-    # Identify frequent locations
-    frequent_locations = pd.Series([tuple(point[1:]) for point in cleaned_data]).value_counts().head(5)
+# Set the map center to the first day's first coordinate
+if day_coordinates:
+    first_day_coords = list(day_coordinates.values())[0]
+    center_location = [first_day_coords[0][1], first_day_coords[0][0]]  # (latitude, longitude)
+else:
+    center_location = [0, 0]  # Default location if no coordinates found
 
-    # Print results
-    print("Frequent locations:")
-    print(frequent_locations)
+# Create a folium map centered around the first point
+m = folium.Map(location=center_location, zoom_start=13)
 
-    print("Total distance traveled:", total_distance, "km")
-    print("Average speed:", average_speed, "km/h")
+# Add routes for each day as separate FeatureGroups
+for day, coords in day_coordinates.items():
+    day_group = folium.FeatureGroup(name=day)
+    folium.PolyLine(locations=[(lat, lon) for lon, lat in coords], color='blue').add_to(day_group)
+    day_group.add_to(m)
 
-    # Visualize travel patterns (example using Plotly)
-    df = pd.DataFrame(cleaned_data, columns=['timestamp', 'latitude', 'longitude'])
-    fig = px.scatter_mapbox(df, lat='latitude', lon='longitude', hover_name='timestamp',
-                            mapbox_style="open-street-map")
-    fig.show()
+# Add a LayerControl to toggle between days
+folium.LayerControl().add_to(m)
 
+# Save the map to an HTML file
+m.save('multi_day_route_map.html')
 
-file_paths = ['DataFiles/1Søndag.kml', 'DataFiles/2Mandag.kml', 'DataFiles/3Tirsdag.kml', 'DataFiles/4Onsdag.kml', 'DataFiles/5Torsdag.kml']
-
-for file_path in file_paths:
-    data = parse_kml_file(file_path)
-    process_data(data)
+# If running in a Jupyter notebook, display the map
+# m.show_in_browser()  # Uncomment if running in a script or Jupyter

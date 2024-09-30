@@ -79,7 +79,7 @@ def process_data(data):
     fig.show()
 
 
-file_paths = ['DataFiles/history-2024-09-15.kml', 'DataFiles/history-2024-09-16.kml', 'DataFiles/history-2024-09-17.kml', 'DataFiles/history-2024-09-18.kml', 'DataFiles/history-2024-09-19.kml']
+file_paths = ['DataFiles/1Søndag.kml', 'DataFiles/2Mandag.kml', 'DataFiles/3Tirsdag.kml', 'DataFiles/4Onsdag.kml', 'DataFiles/5Torsdag.kml']
 
 for file_path in file_paths:
     data = parse_kml_file(file_path)

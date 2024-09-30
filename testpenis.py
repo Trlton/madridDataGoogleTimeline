@@ -1,56 +1,57 @@
+from pykml import parser
 import folium
 import os
-from fastkml import kml
 
-# Hostel coordinates (as midpoint)
-hostel_coords = [40.41447396437289, -3.7036084441990917]
-
-# Create a base map centered on the hostel with a reasonable zoom level
-my_map = folium.Map(location=hostel_coords, zoom_start=14)
-
-# Path to your KML file containing your walking routes
-kml_file_path = 'DataFiles/history-2024-09-17.kml'
-
-# Add the KML layer (walking routes)
-if os.path.isfile(kml_file_path):
-    with open(kml_file_path, 'rb') as file:  # Open the file as bytes ('rb')
-        doc = file.read()
-        # Parse the KML file as bytes
-        k = kml.KML()
-        k.from_string(doc.decode("utf-8"))  # Decode to string from bytes
-
-        # Extract the placemarks and convert them to GeoJSON
-        features = list(k.features())
-        if features:
-            for feature in features:
-                for sub_feature in feature.features():
-                    geo_json = sub_feature.geometry.geojson
-                    folium.GeoJson(geo_json).add_to(my_map)
-else:
-    print(f"KML file not found at {kml_file_path}")
-
-# Example locations with coordinates and image URLs (You can add more)
-photo_locations = [
-    {"coords": [40.4168, -3.7038], "image": "Fotos/ManMeat.jpg", "caption": "Location 1"},
-    {"coords": [40.4122, -3.7070], "image": "Fotos/MAUNCH.jpg", "caption": "Location 2"},
+# File paths for each day
+kml_files = [
+    'DataFiles/1Søndag.kml',
+    'DataFiles/2Mandag.kml',
+    'DataFiles/3Tirsdag.kml',
+    'DataFiles/4Onsdag.kml',
+    'DataFiles/5Torsdag.kml'
 ]
 
-# Add markers with images and hover popups
-for loc in photo_locations:
-    marker = folium.Marker(
-        location=loc["coords"],
-        popup=folium.Popup(f'<img src="{loc["image"]}" width="200"><br>{loc["caption"]}', max_width=250)
-    )
-    marker.add_to(my_map)
+# Dictionary to hold coordinates for each day
+day_coordinates = {}
 
-# Add a marker for your hostel
-folium.Marker(
-    location=hostel_coords,
-    popup="My Hostel",
-    icon=folium.Icon(color="blue", icon="info-sign")
-).add_to(my_map)
+# Parse each KML file and extract coordinates
+for i, kml_file in enumerate(kml_files):
+    if os.path.isfile(kml_file):
+        with open(kml_file, 'r') as f:
+            root = parser.parse(f).getroot()
+
+        placemarks = root.Document.findall('.//{http://www.opengis.net/kml/2.2}Placemark')
+        coordinates = []
+        for placemark in placemarks:
+            coord_text = placemark.find('.//{http://www.opengis.net/kml/2.2}coordinates').text.strip()
+            coords = [tuple(map(float, c.split(',')))[:2] for c in coord_text.split()]  # Split longitude, latitude
+            coordinates.extend(coords)
+        # Store the coordinates for this day
+        day_coordinates[f"Day {i + 1}"] = coordinates
+    else:
+        print(f"KML file not found: {kml_file}")
+
+# Set the map center to the first day's first coordinate
+if day_coordinates:
+    first_day_coords = list(day_coordinates.values())[0]
+    center_location = [first_day_coords[0][1], first_day_coords[0][0]]  # (latitude, longitude)
+else:
+    center_location = [0, 0]  # Default location if no coordinates found
+
+# Create a folium map centered around the first point
+m = folium.Map(location=center_location, zoom_start=13)
+
+# Add routes for each day as separate FeatureGroups
+for day, coords in day_coordinates.items():
+    day_group = folium.FeatureGroup(name=day)
+    folium.PolyLine(locations=[(lat, lon) for lon, lat in coords], color='blue').add_to(day_group)
+    day_group.add_to(m)
+
+# Add a LayerControl to toggle between days
+folium.LayerControl().add_to(m)
 
 # Save the map to an HTML file
-my_map.save('vacation_map_with_photos.html')
+m.save('multi_day_route_map.html')
 
-print("Map created and saved as 'vacation_map_with_photos.html'")
+# If running in a Jupyter notebook, display the map
+# m.show_in_browser()  # Uncomment if running in a script or Jupyter

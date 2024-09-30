@@ -1,7 +1,7 @@
 from pykml import parser
 
 # Load and parse the KML file
-with open('data.kml', 'r') as f:
+with open('DataFiles/1Søndag.kml', 'r') as f:
     root = parser.parse(f).getroot()
 
 # Example: Accessing the Placemark elements and extracting coordinates

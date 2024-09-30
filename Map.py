@@ -57,7 +57,10 @@ def process_data(data):
 
     # Calculate average speed
     total_time = sum(durations)
-    average_speed = total_distance / (total_time + 0.00000001 / 3600)
+    if total_time > 0:
+        average_speed = total_distance / (total_time / 3600)
+    else:
+        average_speed = 0  # Or raise an exception if appropriate
 
     # Identify frequent locations
     frequent_locations = pd.Series([tuple(point[1:]) for point in cleaned_data]).value_counts().head(5)

@@ -1,3 +1,10 @@
+"""
+Dette kode er i stor grad lavet ved hjælp af ChatGBT
+Dette er basically en omskrevet mere clean version
+Dette bruges for at se hvordan man kan bruge de forskellige funktioner i pykml og folium
+Dette er ikke det færige produkt, men blot til at skabe forståelse
+"""
+
 import pykml as parser
 import folium
 

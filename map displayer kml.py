@@ -1,3 +1,8 @@
+"""
+Dette kode er i stor grad nakket fra ChatGBT
+Dette bruges for at se hvordan man kan bruge de forskellige funktioner i pykml og folium
+Dette er ikke det færige produkt, men blot til at skabe forståelse
+"""
 from pykml import parser
 
 # Load and parse the KML file
